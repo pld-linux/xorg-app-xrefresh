@@ -1,5 +1,5 @@
 Summary:	xrefresh application
-Summary(pl):	Aplikacja xrefresh
+Summary(pl.UTF-8):   Aplikacja xrefresh
 Name:		xorg-app-xrefresh
 Version:	1.0.2
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xrefresh application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xrefresh.
 
 %prep
