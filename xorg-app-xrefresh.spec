@@ -1,5 +1,5 @@
 Summary:	xrefresh application
-Summary(pl.UTF-8):   Aplikacja xrefresh
+Summary(pl.UTF-8):	Aplikacja xrefresh
 Name:		xorg-app-xrefresh
 Version:	1.0.2
 Release:	1
