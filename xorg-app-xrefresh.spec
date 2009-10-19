@@ -1,25 +1,27 @@
-Summary:	xrefresh application
-Summary(pl.UTF-8):	Aplikacja xrefresh
+Summary:	xrefresh application to refresh all or part of an X screen
+Summary(pl.UTF-8):	Aplikacja xrefresh do odświeżania całości lub części ekranu X
 Name:		xorg-app-xrefresh
-Version:	1.0.2
-Release:	2
+Version:	1.0.3
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xrefresh-%{version}.tar.bz2
-# Source0-md5:	1228f890f86148e4e6ae22aa73118cbb
+# Source0-md5:	8f4fafcfb77b3c6972cc44bb3f1c899c
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.2
+BuildRequires:	xorg-util-util-macros >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xrefresh application.
+xrefresh application is a simple X program that causes all or part of
+your screen to be repainted.
 
 %description -l pl.UTF-8
-Aplikacja xrefresh.
+Aplikacja xrefresh to prosty program X powodujący ponowne narysowanie
+całości lub części ekranu.
 
 %prep
 %setup -q -n xrefresh-%{version}
@@ -44,6 +46,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/xrefresh
 %{_mandir}/man1/xrefresh.1x*
