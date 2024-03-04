@@ -1,12 +1,12 @@
 Summary:	xrefresh application to refresh all or part of an X screen
 Summary(pl.UTF-8):	Aplikacja xrefresh do odświeżania całości lub części ekranu X
 Name:		xorg-app-xrefresh
-Version:	1.0.7
+Version:	1.1.0
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xrefresh-%{version}.tar.xz
-# Source0-md5:	33b04489e417d73c90295bd2a0781cbb
+# Source0-md5:	55003733ef417db8fafce588ca74d584
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
